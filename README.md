@@ -1,3 +1,4 @@
+```mermaid
 erDiagram
     USER {
         int id
@@ -79,3 +80,4 @@ erDiagram
     MOVIE ||--o{ FAVORITE_MOVIES : "movie_id"
     PERSON ||--o{ PERSON_PHOTO : "primary_photo_id"
     PERSON_PHOTO ||--o{ FILE : "file_id"
+```
